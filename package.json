@@ -1,0 +1,14 @@
+{
+  "name": "com.wonderplanet.webview",
+  "displayName": "UnityWebview",
+  "version": "1.0.0",
+  "description": "Unity Webview",
+  "keywords": ["package", "unity", "webview"],
+  "dependencies": {},
+  "category": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wonderplanet/unity-webview",
+    "revision": ""
+  }
+}
