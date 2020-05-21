@@ -1,28 +1,14 @@
 {
-    "name": "com.wonderplanet.webview",
-    "displayName": "UnityWebview",
-    "version": "1.0.0",
-    "description": "Unity Webview",
-    "keywords": [
-        "package",
-        "unity",
-        "webview"
-    ],
-    "dependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Wonderplanet/unity-webview",
-    },
-    "samples": [
-        {
-            "displayName": "Sample",
-            "description": "UnityWebviewSample",
-            "path": "samples/"
-        },
-        {
-            "displayName": "Sample Hoge 2",
-            "description": "Description for sample 2",
-            "path": "Samples/Sample Hoge 2"
-        }
-    ]
+  "name": "com.wonderplanet.webview",
+  "displayName": "UnityWebview",
+  "version": "1.0.0",
+  "description": "Unity Webview",
+  "keywords": ["package", "unity", "webview"],
+  "dependencies": {},
+  "category": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wonderplanet/unity-webview",
+    "revision": ""
+  }
 }
