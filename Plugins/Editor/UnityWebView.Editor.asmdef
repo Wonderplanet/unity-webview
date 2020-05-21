@@ -1,0 +1,17 @@
+{
+    "name": "UnityWebView.Editor",
+    "references": [
+        "GUID:af1c5f0c4830e42478f9ffdbbe345bfd"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
