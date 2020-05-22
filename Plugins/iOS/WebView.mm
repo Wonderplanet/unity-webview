@@ -509,7 +509,7 @@ static NSMutableArray *_instances = [[NSMutableArray alloc] init];
     [webView setScrollBounce:enabled];
 }
 
-- (BOOL)setURLPattern:(const char *)allowPattern and:(const char *)denyPattern and:(const char *)hookPattern
+- (BOOL)setURLPattern:(const char *)allowPattern denyPattern:(const char *)denyPattern hookPattern:(const char *)hookPattern
 {
     NSError *err = nil;
     NSRegularExpression *allow = nil;
@@ -743,7 +743,7 @@ BOOL _CWebViewPlugin_SetURLPattern(void *instance, const char *allowPattern, con
     if (instance == NULL)
         return NO;
     CWebViewPlugin *webViewPlugin = (__bridge CWebViewPlugin *)instance;
-    return [webViewPlugin setURLPattern:allowPattern and:denyPattern and:hookPattern];
+    return [webViewPlugin setURLPattern:allowPattern denyPattern:denyPattern hookPattern:hookPattern];
 }
 
 void _CWebViewPlugin_LoadURL(void *instance, const char *url)
